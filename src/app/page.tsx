@@ -117,13 +117,13 @@ export default function Home() {
       if (count === 2) setLoaded(true);
     };
     const crowd = new Image();
-    crowd.src = "/crowd.jpg";
+    crowd.src = "/crowd.png";
     crowd.onload = () => {
       s.crowd = crowd;
       onLoad();
     };
     const meetup = new Image();
-    meetup.src = "/meetup.jpg";
+    meetup.src = "/meetup.png";
     meetup.onload = () => {
       s.meetup = meetup;
       onLoad();
